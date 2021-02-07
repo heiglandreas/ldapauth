@@ -1,0 +1,5 @@
+default:
+  suites:
+    default:
+      paths: [ "%paths.base%/tests/behat/features" ]
+      contexts: [ Org_Heigl\LdapAuthTest\Behat\FeatureContext ]
